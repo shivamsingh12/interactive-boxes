@@ -475,7 +475,7 @@ option :focus {
   /* card ----------------------------------------------- */
   .price-card {
     gap: 26px;
-    padding: 34px;
+    padding: 26px;
   }
 
   .price-card-unactive {
