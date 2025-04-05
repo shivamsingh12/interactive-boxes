@@ -457,8 +457,8 @@ option :focus {
     width: 40%;
     height: 100vh;
     margin: 0 auto;
-    padding: 38px 0px;
-    gap: 34px;
+    padding: 24px 0px;
+    gap: 26px;
   }
 
   /* title ----------------------------------------*/
@@ -474,8 +474,8 @@ option :focus {
 
   /* card ----------------------------------------------- */
   .price-card {
-    gap: 28px;
-    padding: 38px;
+    gap: 26px;
+    padding: 34px;
   }
 
   .price-card-unactive {
@@ -487,15 +487,15 @@ option :focus {
   }
 
   .product-unit {
-    gap: 32px;
+    gap: 28px;
   }
 
   .product-amount-details {
-    gap: 10px;
+    gap: 8px;
   }
 
   .product-amount-group {
-    gap: 10px;
+    gap: 8x;
   }
 
   .product-amount-unit {
