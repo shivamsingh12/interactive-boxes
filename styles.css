@@ -40,6 +40,7 @@
   flex-direction: column;
   gap: 16px;
   padding: 16px;
+  position: relative;
 }
 
 .price-card-unactive {
@@ -224,6 +225,50 @@ option :focus {
   text-align: end;
 }
 
+/* most pupular poster */
+
+.poster {
+  position: absolute;
+  top: -8px;
+  right: 4px;
+}
+
+.back-poster-left {
+  position: absolute;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: rgb(172, 76, 91);
+  z-index: -1000;
+  left: -4px;
+  top: 2px;
+  transform: rotate(-50deg);
+}
+
+.poster-content {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+  background-color: rgba(255, 107, 130, 1);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 4px 16px;
+  z-index: 1000;
+}
+
+.back-poster-right {
+  transform: rotate(-50deg);
+  position: absolute;
+  right: -4px;
+  top: 2px;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: rgb(172, 76, 91);
+  z-index: -1000;
+}
+
 @media only screen and (min-width: 1024px) {
   .container {
     min-width: 270px;
@@ -374,6 +419,35 @@ option :focus {
     font-weight: 400;
     font-size: 16px;
     padding: 2px;
+  }
+
+  .poster {
+    top: -8px;
+    right: 4px;
+  }
+
+  .back-poster-left {
+    height: 8px;
+    width: 8px;
+    left: -4px;
+    top: 2px;
+    transform: rotate(-50deg);
+  }
+
+  .poster-content {
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 2px 18px;
+  }
+
+  .back-poster-right {
+    transform: rotate(-50deg);
+    right: -4px;
+    top: 2px;
+    height: 8px;
+    width: 8px;
   }
 }
 
@@ -527,5 +601,34 @@ option :focus {
     font-weight: 400;
     font-size: 24px;
     padding: 4px;
+  }
+
+  .poster {
+    top: -12px;
+    right: 8px;
+  }
+
+  .back-poster-left {
+    height: 12px;
+    width: 12px;
+    left: -5px;
+    top: 2px;
+    transform: rotate(-50deg);
+  }
+
+  .poster-content {
+    font-weight: 700;
+    font-size: 26px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 4px 22px;
+  }
+
+  .back-poster-right {
+    transform: rotate(-50deg);
+    right: -5px;
+    top: 3px;
+    height: 12px;
+    width: 12px;
   }
 }
