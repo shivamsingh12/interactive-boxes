@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Interactive Boxes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <div class="title-line"></div>
+        <div class="title-text">YAY! It’s BOGO</div>
+        <div class="title-line"></div>
+      </div>
+      <div class="price-card price-card-unactive" id="card-1" role="button">
+        <div class="product-details-group">
+          <div class="product-unit">
+            <div>
+              <input type="radio" id="html" name="price-group" value="card-1" />
+            </div>
+            <div class="product-amount-details">
+              <div class="product-amount-unit">
+                <div>1 Unit</div>
+                <div class="discount">10% Off</div>
+              </div>
+              <div class="product-amount-type">Standard Price</div>
+            </div>
+          </div>
+          <div class="product-amount-group">
+            <div class="product-amount">$10.00 USD</div>
+            <div class="product-amount-old">$24.00 USD</div>
+          </div>
+        </div>
+        <div class="buy-options buy-options-hide" id="dropdown-1">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th scope="col">size</th>
+                <th scope="col">colour</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">#1</th>
+                <td>
+                  <select name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colours">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#2</th>
+                <td>
+                  <select name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colours">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="price-card price-card-active" id="card-2" role="button">
+        <div class="product-details-group">
+          <div class="product-unit">
+            <div>
+              <input
+                type="radio"
+                id="html"
+                name="price-group"
+                value="card-2"
+                checked
+              />
+            </div>
+            <div class="product-amount-details">
+              <div class="product-amount-unit">
+                <div>2 Unit</div>
+                <div class="discount">20% Off</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-amount-group">
+            <div class="product-amount">$18.00 USD</div>
+            <div class="product-amount-old">$24.00 USD</div>
+          </div>
+        </div>
+        <div class="buy-options buy-options-show" id="dropdown-2">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th scope="col">size</th>
+                <th scope="col">colour</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">#1</th>
+                <td>
+                  <select name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colours">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#2</th>
+                <td>
+                  <select name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colours">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="price-card price-card-unactive" id="card-3" role="button">
+        <div class="product-details-group">
+          <div class="product-unit">
+            <div>
+              <input type="radio" id="html" name="price-group" value="card-3" />
+            </div>
+            <div class="product-amount-details">
+              <div class="product-amount-unit">
+                <div>3 Unit</div>
+                <div class="discount highest-discount">30% Off</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-amount-group">
+            <div class="product-amount">$24.00 USD</div>
+            <div class="product-amount-old">$24.00 USD</div>
+          </div>
+        </div>
+        <div class="buy-options buy-options-hide" id="dropdown-3">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th scope="col">size</th>
+                <th scope="col">colour</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">#1</th>
+                <td>
+                  <select name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colours">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#2</th>
+                <td>
+                  <select name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="colours">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <div class="summary">
+          <div class="price-summary">
+            <div class="price-delivery">Free Delivery</div>
+            <div class="price">Total : $18<span>.00 USD</span></div>
+          </div>
+          <div class="cart-button">
+            <div class="add-icon">+</div>
+            <div>Add to Cart</div>
+          </div>
+        </div>
+        <div class="footer">@ Powered by Pumper</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
