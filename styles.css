@@ -376,3 +376,156 @@ option :focus {
     padding: 2px;
   }
 }
+
+@media only screen and (min-width: 1920px) {
+  .container {
+    min-width: 270px;
+    width: 40%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 38px 0px;
+    gap: 34px;
+  }
+
+  /* title ----------------------------------------*/
+  .title {
+    gap: 18px;
+    font-weight: 600;
+    font-size: 38px;
+  }
+
+  .title-line {
+    border: 2px solid rgba(200, 200, 200, 1);
+  }
+
+  /* card ----------------------------------------------- */
+  .price-card {
+    gap: 28px;
+    padding: 38px;
+  }
+
+  .price-card-unactive {
+    border: 2px solid rgba(200, 200, 200, 1);
+  }
+
+  .price-card-active {
+    border: 2px solid rgba(255, 107, 130, 1);
+  }
+
+  .product-unit {
+    gap: 32px;
+  }
+
+  .product-amount-details {
+    gap: 10px;
+  }
+
+  .product-amount-group {
+    gap: 10px;
+  }
+
+  .product-amount-unit {
+    font-weight: 600;
+    font-size: 34px;
+  }
+
+  .discount {
+    font-weight: 400;
+    font-size: 28px;
+    padding: 6px;
+    border-radius: 6px;
+    margin-left: 12px;
+  }
+
+  .highest-discount {
+    top: -28px;
+    right: -124px;
+  }
+
+  .product-amount-type {
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .product-amount {
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  .product-amount-old {
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .buy-options {
+    padding-left: 42px;
+  }
+
+  .buy-options > table > thead th {
+    font-weight: 400;
+    font-size: 30px;
+    padding-right: 28px;
+  }
+
+  .buy-options > table > tbody th {
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .buy-options > table > tbody td {
+    padding: 8px;
+    padding-left: 4px;
+  }
+
+  .buy-options > table > tbody td select {
+    font-weight: 400;
+    font-size: 24px;
+    padding: 4px;
+    padding-right: 0px;
+    border: 2px solid rgba(200, 200, 200, 1);
+    min-width: 102px;
+    background: url("data:image/svg+xml,<svg height='16px' width='16px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>")
+      no-repeat;
+    background-position: calc(100% - 0.45rem) center !important;
+  }
+
+  /* summary ------------------------------------------------- */
+  .summary {
+    gap: 18px;
+  }
+
+  .price-delivery {
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  .price {
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .price > span {
+    font-weight: 500;
+  }
+
+  .cart-button {
+    font-weight: 500;
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 6px;
+    gap: 8px;
+  }
+
+  .cart-button .add-icon {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 4px;
+  }
+
+  /* footer ------------------------------------------------- */
+  .footer {
+    font-weight: 400;
+    font-size: 24px;
+    padding: 4px;
+  }
+}
