@@ -41,6 +41,7 @@
   gap: 16px;
   padding: 16px;
   position: relative;
+  cursor: pointer;
 }
 
 .price-card-unactive {
@@ -207,6 +208,11 @@ option :focus {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
+}
+
+.cart-button:active {
+  background-color: rgba(255, 107, 130, 0.8);
 }
 
 .cart-button .add-icon {
